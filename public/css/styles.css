@@ -25,13 +25,15 @@ footer {
 header {
     margin-top: 16px;
     margin-bottom: 48px;
-    background: lightgray;
+    background: rgb(246, 245, 245);
+    
 }
 
 h1 {
     font-size: 64px;
     margin-bottom: 16px;
-    background: lightgray;
+    background: rgb(243, 242, 242);
+    text-align: center;
 }
 
 header a {
@@ -43,5 +45,26 @@ header a {
 .picture {
     width: 300px;
     height: 250px;
+}
+
+input{
+border: 2px solid #cccccc;
+padding: 8px;
+align-content: center;
+text-align: center;
+}
+
+button {
+    cursor: pointer;
+    border: 2px solid #cccccc;
+    background: #888888;
+    color: white;
+    padding: 8px;
+
+}
+#headOne{
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
 }
 
