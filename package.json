@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "author": "",
   "license": "ISC",
@@ -12,13 +13,10 @@
     "hbs": "^4.0.4",
     "request": "^2.88.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tbednarz/web-server.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tbednarz/web-server/issues"
-  },
-  "homepage": "https://github.com/tbednarz/web-server#readme",
-  "description": ""
+ 
+  
+  
+  "devDependencies": {
+    "nodemon": "^1.2.0"
+  }
 }
