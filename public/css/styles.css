@@ -4,6 +4,7 @@ body {
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
+    background: #dbdbdb;
 
     display: flex;
     flex-direction: column;
@@ -36,10 +37,12 @@ h1 {
     text-align: center;
 }
 
+
 header a {
     color: #888888;
     margin-right: 16px;
     text-decoration: none;
+    
 }
 
 .picture {
@@ -65,6 +68,18 @@ button {
 #headOne{
     font-size: 16px;
     padding: 5px;
+    text-align: center;
+}
+#messOne{
+    text-align:  center;
+    background: #fafafa;
+    font-size: 24px;
+    font-style: italic;
+}
+#messTwo{
+    background: rgb(250, 250, 251);
+    font-size: 24px;
+    font-style: oblique;
     text-align: center;
 }
 
